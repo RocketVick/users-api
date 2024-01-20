@@ -1,6 +1,7 @@
 @TNG.Users.API_HostAddress = http://localhost:5128
 
-GET {{TNG.Users.API_HostAddress}}/weatherforecast/
+GET {{TNG.Users.API_HostAddress}}/user/1
 Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwibmFtZSI6InRlc3QxIiwiZXhwIjoxNzA1MTU0Mzg1LCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo1MTI4IiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTEyOCJ9.fm3AH0xTimm97ZqwR_xJU06cqHnlXQDyD4vBBF67jyM
 
 ###
